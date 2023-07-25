@@ -106,10 +106,7 @@ Install this project with:
 
 Run this command:
 
-...sh
-  cd my-project
-  npm install
-  ...
+"npm install" on your terminal
 
 
 ### Usage
@@ -117,7 +114,7 @@ Run this command:
 To run the project, execute the following command:
 
 Example command:
-Open the index.html using live server.
+run "npm start" on your terminal.
 
 ### Run tests
 
