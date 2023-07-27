@@ -55,6 +55,11 @@ button {
   margin-top: 15px;
 }
 
+ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
 li:nth-child(even) {
   background-color: rgb(204, 216, 204);
 }
@@ -88,10 +93,6 @@ form button {
   column-gap: 1rem;
 }
 
-ul li {
-  display: flex;
-  justify-content: space-between;
-}
 span {
   font-weight: 900;
 }
