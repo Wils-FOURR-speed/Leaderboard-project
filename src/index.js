@@ -5,23 +5,7 @@ const list = document.getElementById('ListOfScores');
 
 let allScores = '';
 
-// const addGame = async ()=> {
-//      const data = {name: 'fruitninja'}
 
-//     await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
-//         method: 'POST',
-//         headers: {
-//             'Content-Type':'application/json'
-//         },
-//         body: JSON.stringify(data)
-//     }).then(response => response.json())
-//       .then(result =>{
-//         id=result.result.split(' ')[3]
-//         console.log(id)
-//       })
-//       .catch(err=>console.log(err))
-// }
-// addGame()
 
 const getReq = async () => {
   await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/5HJH59zlIAiXTsxslStP/scores/')
