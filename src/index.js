@@ -11,7 +11,7 @@ const getReq = async () => {
       allScores = scores1.result;
       let lists = '';
       allScores.forEach((element) => {
-        lists += `<li>name:${element.user} <span>score: ${element.score}</span></li>`;
+        lists += `<li><div>Player Name: <span>${element.user}</span> </div> <div>Score:<span> ${element.score}</span></div></li>`;
       });
       list.innerHTML = lists;
     });
