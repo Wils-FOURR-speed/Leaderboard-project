@@ -17,7 +17,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -65,14 +64,6 @@ This is a project portraying the name of players and their respective scores in 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo](Coming soon)
-- [Live Demo](https://wils-fourr-speed.github.io/Leaderboard-project/)
-
-<p align="right">(<a href="#">back to top</a>)</p>
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -106,10 +97,7 @@ Install this project with:
 
 Run this command:
 
-...sh
-  cd my-project
-  npm install
-  ...
+"npm install" on your terminal
 
 
 ### Usage
@@ -117,7 +105,7 @@ Run this command:
 To run the project, execute the following command:
 
 Example command:
-Open the index.html using live server.
+run "npm start" on your terminal.
 
 ### Run tests
 
