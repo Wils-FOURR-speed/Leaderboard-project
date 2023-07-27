@@ -2,10 +2,7 @@ import './index.css';
 
 const form = document.getElementById('form');
 const list = document.getElementById('ListOfScores');
-
 let allScores = '';
-
-
 
 const getReq = async () => {
   await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/5HJH59zlIAiXTsxslStP/scores/')
